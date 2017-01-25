@@ -1,0 +1,5 @@
+.vagrant/
+/vendor/
+www/phpmyadmin
+.env
+phinx.yml

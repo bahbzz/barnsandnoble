@@ -1,0 +1,25 @@
+{
+    "name": "babatunde/bookstore",
+    "authors": [
+        {
+            "name": "Balogun Babatunde",
+            "email": "baloguntunde09@yahoo.com"
+        }
+    ],
+
+     "autoload": {
+    	"psr-4": {
+    		"brainfood\\": "src/brainfood"
+    	}
+    },
+    "require": {
+        "duncan3dc/blade": "^3.3",
+        "filp/whoops": "^2.1",
+        "altorouter/altorouter": "^1.2",
+        "robmorgan/phinx": "^0.6.5",
+        "respect/validation": "^1.1",
+        "illuminate/database": "^5.3",
+        "vlucas/phpdotenv": "^2.4",
+        "symfony/var-dumper": "^3.2"
+    }
+}
